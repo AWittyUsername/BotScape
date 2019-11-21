@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>BotScape</title>
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/js-cookie.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css"> 
+    </head>
+    
+    <body>
+        <div id="menuContainer">
+            <button id="menuButton">Menu</button>
+            <div id="optionsMenu">
+                <label class="menuLabel">Save options</label>
+                <button id="saveButton" class="menuButton">Save game</button><br>
+                <button id="loadButton" class="menuButton">Load game</button><br>
+                <button id="deleteButton" class="menuButton">Delete savegame</button>
+            </div>
+        </div>
+        <div id="banner">
+            <label>Welcome to BotScape.</label>
+        </div>
+        <div id="coinCounterDiv">
+            <label id="coinCounter"></label><br>
+            <img id="coinImage" draggable="false" src="/botscape/content/coins.png">
+        </div>
+        <div id="upgradeSection">
+            <h2>UPGRADES</h2>
+            <div class="upgradeables" id="pickaxeUpgrade">
+            <label id="pickaxeLabel"class="upgradeLabel">Level 0</label><br>
+            <img id="pickaxeIcon" draggable="false" class="upgradeIcon" src="/botscape/content/pickaxe/0.png"><br>
+            <label id="pickaxeCost" class="costLabel">Cost:</label>
+        </div>
+        <div class="upgradeables" id="axeUpgrade">
+                <label id="axeLabel"class="upgradeLabel">Level 0 axe</label><br>
+                <img id="axeIcon" draggable="false" class="upgradeIcon" src="/botscape/content/axe/0.png"><br>
+                <label id="axeCost" class="costLabel">Cost:</label>
+            </div>
+        </div>
+        <div id="notificationContainer">
+            <label id="notificationLabel">A notification!</label>
+        </div>
+        <script src="js/game.js"></script>
+    </body>
+</html>
+
+

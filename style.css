@@ -1,0 +1,107 @@
+body{
+    background-color: darkgrey;
+}
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    }
+#banner{
+    margin-left: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+.menuLabel{
+}
+.menuButton{
+    position: relative;
+    width: 100%;
+    margin-top: 5%;
+}
+#menuContainer{
+    position: relative;
+    text-align: center;
+    margin-left: 84%;
+    float: right;
+}
+#menuButton{
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    background-color: burlywood;
+    border: 1px solid beige;
+}
+#menuButton:hover{
+    background-color: brown;
+}
+#optionsMenu{
+    display: none;
+    position: absolute;
+    background-color:  rgb(75, 75, 75);
+    overflow: auto;
+    right: 0;
+    width: 150px;
+    height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.show{
+    display: block!important;
+}
+#coinCounter{
+    color: yellow;
+    margin-left: 12.5%;
+    font-size: 26px;
+}
+#coinImage{
+    margin-left: 7%;
+}
+/*Upgrades*/
+#upgradeSection{
+    margin-top: 23%;
+    background-color: #808080!important;
+    overflow: auto;
+    text-align: center;
+}
+.upgradeables{
+    width: 10%;
+    border: 3px solid brown;
+    float: left;
+    margin: 0.5%;
+    overflow: hidden;
+    height: 150px;
+}
+.upgradeablesavailable{
+    border: 3px solid green;
+}
+.upgradeables:hover{
+    background-color: rgb(75, 75, 75)
+}
+.upgradeLabel{
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+}
+.upgradeIcon{
+    margin-top: 3%;
+    height: 100px;
+    width: auto;
+}
+
+#notificationContainer{
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    bottom: 3%;
+}
+#notificationLabel{
+    font-size: 40px;
+    display: none;
+    color: black;
+    font-family: 'Arial Black';
+}
+.notify{
+    display: block!important;
+}
